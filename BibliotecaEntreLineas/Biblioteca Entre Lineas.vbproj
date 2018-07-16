@@ -92,6 +92,7 @@
     <Compile Include="Clases\ClsCliente.vb" />
     <Compile Include="Clases\ClsEjemplar.vb" />
     <Compile Include="Clases\ClsEmpleado.vb" />
+    <Compile Include="Clases\ClsLector.vb" />
     <Compile Include="Clases\ClsLibro.vb" />
     <Compile Include="Clases\ClsPersona.vb" />
     <Compile Include="Form1.vb">

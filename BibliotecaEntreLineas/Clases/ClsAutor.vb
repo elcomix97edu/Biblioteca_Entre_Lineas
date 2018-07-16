@@ -2,8 +2,9 @@
 
     Private mNombre As String
     Private mApellido As String
-    Private mLibrosEscritos As Integer
     Private mNacionalidad As String
+    Private mFechaNac As Date
+
 
 
     Public Property Nombre As String
@@ -24,14 +25,6 @@
         End Set
     End Property
 
-    Public Property LibrosEscritos As Integer
-        Get
-            Return mLibrosEscritos
-        End Get
-        Set(value As Integer)
-            mLibrosEscritos = value
-        End Set
-    End Property
 
     Public Property Nacionalidad As String
         Get
@@ -39,6 +32,15 @@
         End Get
         Set(value As String)
             mNacionalidad = value
+        End Set
+    End Property
+
+    Public Property FechaNac As Date
+        Get
+            Return mFechaNac
+        End Get
+        Set(value As Date)
+            mFechaNac = value
         End Set
     End Property
 End Class

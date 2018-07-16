@@ -1,73 +1,31 @@
 ﻿Public Class ClsEmpleado
+    Inherits ClsPersona
 
-    Private mNombre As String
-    Private mApellido As String
-    Private mDir As String
-    Private mTel As String
-    Private mSueldo As Integer
-    Private mCi As Integer
-    Private mFechaIngreso As Date
+    Private mSueldo As Double
 
-    Public Property Nombre As String
-        Get
-            Return mNombre
-        End Get
-        Set(value As String)
-            mNombre = value
-        End Set
-    End Property
-
-    Public Property Apellido As String
-        Get
-            Return mApellido
-        End Get
-        Set(value As String)
-            mApellido = value
-        End Set
-    End Property
-
-    Public Property Dir As String
-        Get
-            Return mDir
-        End Get
-        Set(value As String)
-            mDir = value
-        End Set
-    End Property
-
-    Public Property Tel As String
-        Get
-            Return mTel
-        End Get
-        Set(value As String)
-            mTel = value
-        End Set
-    End Property
-
-    Public Property Sueldo As Integer
+    Public Property Sueldo As Double
         Get
             Return mSueldo
         End Get
-        Set(value As Integer)
+        Set(value As Double)
             mSueldo = value
         End Set
     End Property
 
-    Public Property Ci As Integer
-        Get
-            Return mCi
-        End Get
-        Set(value As Integer)
-            mCi = value
-        End Set
-    End Property
+    Public Sub New()
 
-    Public Property FechaIngreso As Date
-        Get
-            Return mFechaIngreso
-        End Get
-        Set(value As Date)
-            mFechaIngreso = value
-        End Set
-    End Property
+    End Sub
+
+    Public Sub New(nom As String, ap As String, dir As String, tel As String, ci As Integer, su As Double)
+        Nombre = nom
+        Apellido = ap
+        Direccion = dir
+        Telefono = tel
+        Cedula = ci
+        Sueldo = su
+
+
+    End Sub
+
+
 End Class
