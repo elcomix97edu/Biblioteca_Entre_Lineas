@@ -1,0 +1,24 @@
+C:\Users\jerem\Desktop\Programación\Biblioteca Entre Lineas\5deOro\obj\Debug\Biblioteca Entre Lineas.vbproj.GenerateResource.cache
+C:\Users\jerem\Desktop\Programación\Biblioteca Entre Lineas\5deOro\obj\Debug\Biblioteca Entre Lineas.vbproj.CoreCompileInputs.cache
+C:\Users\jerem\Desktop\Programación\Biblioteca Entre Lineas\5deOro\bin\Debug\BibliotecaEntreLineas.exe.config
+C:\Users\jerem\Desktop\Programación\Biblioteca Entre Lineas\5deOro\bin\Debug\BibliotecaEntreLineas.exe
+C:\Users\jerem\Desktop\Programación\Biblioteca Entre Lineas\5deOro\bin\Debug\BibliotecaEntreLineas.pdb
+C:\Users\jerem\Desktop\Programación\Biblioteca Entre Lineas\5deOro\bin\Debug\BibliotecaEntreLineas.xml
+C:\Users\jerem\Desktop\Programación\Biblioteca Entre Lineas\5deOro\obj\Debug\BibliotecaEntreLineas.exe
+C:\Users\jerem\Desktop\Programación\Biblioteca Entre Lineas\5deOro\obj\Debug\BibliotecaEntreLineas.xml
+C:\Users\jerem\Desktop\Programación\Biblioteca Entre Lineas\5deOro\obj\Debug\BibliotecaEntreLineas.pdb
+C:\Users\jerem\Desktop\Programación\Biblioteca Entre Lineas\5deOro\obj\Debug\Biblioteca Entre Lineas.vbprojResolveAssemblyReference.cache
+C:\Users\jerem\Desktop\Programación\Biblioteca Entre Lineas\5deOro\obj\Debug\_BibliotecaEntreLineas.Form1.resources
+C:\Users\jerem\Desktop\Programación\Biblioteca Entre Lineas\5deOro\obj\Debug\_BibliotecaEntreLineas.Resources.resources
+C:\Users\jerem\Desktop\Programación\Biblioteca Entre Lineas\BibliotecaEntreLineas\bin\Debug\BibliotecaEntreLineas.exe.config
+C:\Users\jerem\Desktop\Programación\Biblioteca Entre Lineas\BibliotecaEntreLineas\bin\Debug\BibliotecaEntreLineas.exe
+C:\Users\jerem\Desktop\Programación\Biblioteca Entre Lineas\BibliotecaEntreLineas\bin\Debug\BibliotecaEntreLineas.pdb
+C:\Users\jerem\Desktop\Programación\Biblioteca Entre Lineas\BibliotecaEntreLineas\bin\Debug\BibliotecaEntreLineas.xml
+C:\Users\jerem\Desktop\Programación\Biblioteca Entre Lineas\BibliotecaEntreLineas\obj\Debug\Biblioteca Entre Lineas.vbprojResolveAssemblyReference.cache
+C:\Users\jerem\Desktop\Programación\Biblioteca Entre Lineas\BibliotecaEntreLineas\obj\Debug\_BibliotecaEntreLineas.Form1.resources
+C:\Users\jerem\Desktop\Programación\Biblioteca Entre Lineas\BibliotecaEntreLineas\obj\Debug\_BibliotecaEntreLineas.Resources.resources
+C:\Users\jerem\Desktop\Programación\Biblioteca Entre Lineas\BibliotecaEntreLineas\obj\Debug\Biblioteca Entre Lineas.vbproj.GenerateResource.cache
+C:\Users\jerem\Desktop\Programación\Biblioteca Entre Lineas\BibliotecaEntreLineas\obj\Debug\Biblioteca Entre Lineas.vbproj.CoreCompileInputs.cache
+C:\Users\jerem\Desktop\Programación\Biblioteca Entre Lineas\BibliotecaEntreLineas\obj\Debug\BibliotecaEntreLineas.exe
+C:\Users\jerem\Desktop\Programación\Biblioteca Entre Lineas\BibliotecaEntreLineas\obj\Debug\BibliotecaEntreLineas.xml
+C:\Users\jerem\Desktop\Programación\Biblioteca Entre Lineas\BibliotecaEntreLineas\obj\Debug\BibliotecaEntreLineas.pdb

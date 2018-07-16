@@ -1,0 +1,14 @@
+C:\Users\tecnologico\AppData\Local\Temporary Projects\5deOro\bin\Debug\5deOro.exe.config
+C:\Users\tecnologico\AppData\Local\Temporary Projects\5deOro\bin\Debug\5deOro.exe
+C:\Users\tecnologico\AppData\Local\Temporary Projects\5deOro\bin\Debug\5deOro.pdb
+C:\Users\tecnologico\AppData\Local\Temporary Projects\5deOro\bin\Debug\5deOro.xml
+C:\Users\tecnologico\AppData\Local\Temporary Projects\5deOro\obj\Debug\_5deOro.Form1.resources
+C:\Users\tecnologico\AppData\Local\Temporary Projects\5deOro\obj\Debug\_5deOro.Resources.resources
+C:\Users\tecnologico\AppData\Local\Temporary Projects\5deOro\obj\Debug\5deOro.vbproj.GenerateResource.Cache
+C:\Users\tecnologico\AppData\Local\Temporary Projects\5deOro\obj\Debug\5deOro.exe
+C:\Users\tecnologico\AppData\Local\Temporary Projects\5deOro\obj\Debug\5deOro.xml
+C:\Users\tecnologico\AppData\Local\Temporary Projects\5deOro\obj\Debug\5deOro.pdb
+C:\Users\tecnologico\Documents\Visual Studio 2012\Projects\5deOro\5deOro\bin\Debug\5deOro.exe.config
+C:\Users\tecnologico\Documents\Visual Studio 2012\Projects\5deOro\5deOro\obj\Debug\5deOro.exe
+C:\Users\tecnologico\Documents\Visual Studio 2012\Projects\5deOro\5deOro\obj\Debug\5deOro.xml
+C:\Users\tecnologico\Documents\Visual Studio 2012\Projects\5deOro\5deOro\obj\Debug\5deOro.pdb
