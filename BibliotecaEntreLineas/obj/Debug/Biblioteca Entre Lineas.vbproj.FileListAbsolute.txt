@@ -22,3 +22,16 @@ C:\Users\jerem\Desktop\Programación\Biblioteca Entre Lineas\BibliotecaEntreLine
 C:\Users\jerem\Desktop\Programación\Biblioteca Entre Lineas\BibliotecaEntreLineas\obj\Debug\BibliotecaEntreLineas.exe
 C:\Users\jerem\Desktop\Programación\Biblioteca Entre Lineas\BibliotecaEntreLineas\obj\Debug\BibliotecaEntreLineas.xml
 C:\Users\jerem\Desktop\Programación\Biblioteca Entre Lineas\BibliotecaEntreLineas\obj\Debug\BibliotecaEntreLineas.pdb
+C:\Users\Admin.PORTABLE\Documents\GitBiblio\Biblioteca_Entre_Lineas\BibliotecaEntreLineas\bin\Debug\BibliotecaEntreLineas.exe.config
+C:\Users\Admin.PORTABLE\Documents\GitBiblio\Biblioteca_Entre_Lineas\BibliotecaEntreLineas\bin\Debug\BibliotecaEntreLineas.exe
+C:\Users\Admin.PORTABLE\Documents\GitBiblio\Biblioteca_Entre_Lineas\BibliotecaEntreLineas\bin\Debug\BibliotecaEntreLineas.pdb
+C:\Users\Admin.PORTABLE\Documents\GitBiblio\Biblioteca_Entre_Lineas\BibliotecaEntreLineas\bin\Debug\BibliotecaEntreLineas.xml
+C:\Users\Admin.PORTABLE\Documents\GitBiblio\Biblioteca_Entre_Lineas\BibliotecaEntreLineas\obj\Debug\Biblioteca Entre Lineas.vbprojAssemblyReference.cache
+C:\Users\Admin.PORTABLE\Documents\GitBiblio\Biblioteca_Entre_Lineas\BibliotecaEntreLineas\obj\Debug\_BibliotecaEntreLineas.Form1.resources
+C:\Users\Admin.PORTABLE\Documents\GitBiblio\Biblioteca_Entre_Lineas\BibliotecaEntreLineas\obj\Debug\_BibliotecaEntreLineas.frmPrincipal.resources
+C:\Users\Admin.PORTABLE\Documents\GitBiblio\Biblioteca_Entre_Lineas\BibliotecaEntreLineas\obj\Debug\_BibliotecaEntreLineas.Resources.resources
+C:\Users\Admin.PORTABLE\Documents\GitBiblio\Biblioteca_Entre_Lineas\BibliotecaEntreLineas\obj\Debug\Biblioteca Entre Lineas.vbproj.GenerateResource.cache
+C:\Users\Admin.PORTABLE\Documents\GitBiblio\Biblioteca_Entre_Lineas\BibliotecaEntreLineas\obj\Debug\Biblioteca Entre Lineas.vbproj.CoreCompileInputs.cache
+C:\Users\Admin.PORTABLE\Documents\GitBiblio\Biblioteca_Entre_Lineas\BibliotecaEntreLineas\obj\Debug\BibliotecaEntreLineas.exe
+C:\Users\Admin.PORTABLE\Documents\GitBiblio\Biblioteca_Entre_Lineas\BibliotecaEntreLineas\obj\Debug\BibliotecaEntreLineas.xml
+C:\Users\Admin.PORTABLE\Documents\GitBiblio\Biblioteca_Entre_Lineas\BibliotecaEntreLineas\obj\Debug\BibliotecaEntreLineas.pdb
