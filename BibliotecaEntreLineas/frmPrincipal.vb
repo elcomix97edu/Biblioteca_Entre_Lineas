@@ -5,4 +5,10 @@
         unfrmAltaSocio.Show()
 
     End Sub
+
+    Private Sub AltaToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles AltaToolStripMenuItem1.Click
+        Dim unfrmAltaSocio As New frmAltaAutor
+        unfrmAltaSocio.MdiParent = Me
+        unfrmAltaSocio.Show()
+    End Sub
 End Class

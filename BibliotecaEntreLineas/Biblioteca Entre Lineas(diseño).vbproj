@@ -91,6 +91,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Clases\clsBD.vb" />
+    <Compile Include="frmAltaAutor.Designer.vb">
+      <DependentUpon>frmAltaAutor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAltaAutor.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmAltaSocio.Designer.vb">
       <DependentUpon>frmAltaSocio.vb</DependentUpon>
     </Compile>
@@ -132,6 +138,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="frmAltaAutor.resx">
+      <DependentUpon>frmAltaAutor.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmAltaProducto.resx">
       <DependentUpon>frmAltaProducto.vb</DependentUpon>
     </EmbeddedResource>
@@ -171,7 +180,16 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Dominio2\Dominio.vbproj">
+      <Project>{e8c34329-c4be-4adc-b2bf-767c57d54107}</Project>
+      <Name>Dominio</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Entidades2\Entidades.vbproj">
+      <Project>{1dbcf359-16f8-4a2d-997b-c9ae4e09ef55}</Project>
+      <Name>Entidades</Name>
+    </ProjectReference>
+  </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Sin título-3.jpg" />
   </ItemGroup>

@@ -24,17 +24,19 @@ Partial Class frmPrincipal
     Private Sub InitializeComponent()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.SociosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.LibrosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.PréstamosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AltaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.BajaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ModificaciónToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.LibrosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PréstamosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.AutorToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.AltaToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
         'MenuStrip1
         '
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.SociosToolStripMenuItem, Me.LibrosToolStripMenuItem, Me.PréstamosToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.SociosToolStripMenuItem, Me.LibrosToolStripMenuItem, Me.PréstamosToolStripMenuItem, Me.AutorToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Size = New System.Drawing.Size(800, 24)
@@ -48,6 +50,24 @@ Partial Class frmPrincipal
         Me.SociosToolStripMenuItem.Size = New System.Drawing.Size(53, 20)
         Me.SociosToolStripMenuItem.Text = "Socios"
         '
+        'AltaToolStripMenuItem
+        '
+        Me.AltaToolStripMenuItem.Name = "AltaToolStripMenuItem"
+        Me.AltaToolStripMenuItem.Size = New System.Drawing.Size(144, 22)
+        Me.AltaToolStripMenuItem.Text = "Alta"
+        '
+        'BajaToolStripMenuItem
+        '
+        Me.BajaToolStripMenuItem.Name = "BajaToolStripMenuItem"
+        Me.BajaToolStripMenuItem.Size = New System.Drawing.Size(144, 22)
+        Me.BajaToolStripMenuItem.Text = "Baja"
+        '
+        'ModificaciónToolStripMenuItem
+        '
+        Me.ModificaciónToolStripMenuItem.Name = "ModificaciónToolStripMenuItem"
+        Me.ModificaciónToolStripMenuItem.Size = New System.Drawing.Size(144, 22)
+        Me.ModificaciónToolStripMenuItem.Text = "Modificación"
+        '
         'LibrosToolStripMenuItem
         '
         Me.LibrosToolStripMenuItem.Name = "LibrosToolStripMenuItem"
@@ -60,23 +80,18 @@ Partial Class frmPrincipal
         Me.PréstamosToolStripMenuItem.Size = New System.Drawing.Size(74, 20)
         Me.PréstamosToolStripMenuItem.Text = "Préstamos"
         '
-        'AltaToolStripMenuItem
+        'AutorToolStripMenuItem
         '
-        Me.AltaToolStripMenuItem.Name = "AltaToolStripMenuItem"
-        Me.AltaToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.AltaToolStripMenuItem.Text = "Alta"
+        Me.AutorToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AltaToolStripMenuItem1})
+        Me.AutorToolStripMenuItem.Name = "AutorToolStripMenuItem"
+        Me.AutorToolStripMenuItem.Size = New System.Drawing.Size(49, 20)
+        Me.AutorToolStripMenuItem.Text = "Autor"
         '
-        'BajaToolStripMenuItem
+        'AltaToolStripMenuItem1
         '
-        Me.BajaToolStripMenuItem.Name = "BajaToolStripMenuItem"
-        Me.BajaToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.BajaToolStripMenuItem.Text = "Baja"
-        '
-        'ModificaciónToolStripMenuItem
-        '
-        Me.ModificaciónToolStripMenuItem.Name = "ModificaciónToolStripMenuItem"
-        Me.ModificaciónToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.ModificaciónToolStripMenuItem.Text = "Modificación"
+        Me.AltaToolStripMenuItem1.Name = "AltaToolStripMenuItem1"
+        Me.AltaToolStripMenuItem1.Size = New System.Drawing.Size(180, 22)
+        Me.AltaToolStripMenuItem1.Text = "Alta"
         '
         'frmPrincipal
         '
@@ -102,4 +117,6 @@ Partial Class frmPrincipal
     Friend WithEvents ModificaciónToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents LibrosToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents PréstamosToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents AutorToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents AltaToolStripMenuItem1 As ToolStripMenuItem
 End Class

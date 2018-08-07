@@ -1,0 +1,17 @@
+C:\Users\Admin.PORTABLE\Documents\GitBiblio\Biblioteca_Entre_Lineas\Persistencia2\bin\Debug\MySql.Data.dll
+C:\Users\Admin.PORTABLE\Documents\GitBiblio\Biblioteca_Entre_Lineas\Persistencia2\bin\Debug\Google.Protobuf.dll
+C:\Users\Admin.PORTABLE\Documents\GitBiblio\Biblioteca_Entre_Lineas\Persistencia2\bin\Debug\MySql.Data.xml
+C:\Users\Admin.PORTABLE\Documents\GitBiblio\Biblioteca_Entre_Lineas\Persistencia2\obj\Debug\Persistencia.vbprojAssemblyReference.cache
+C:\Users\Admin.PORTABLE\Documents\GitBiblio\Biblioteca_Entre_Lineas\Persistencia2\obj\Debug\Persistencia.vbproj.GenerateResource.cache
+C:\Users\Admin.PORTABLE\Documents\GitBiblio\Biblioteca_Entre_Lineas\Persistencia2\obj\Debug\Persistencia.vbproj.CoreCompileInputs.cache
+C:\Users\Admin.PORTABLE\Documents\GitBiblio\Biblioteca_Entre_Lineas\Persistencia2\obj\Debug\Persistencia.vbproj.CopyComplete
+C:\Users\Admin.PORTABLE\Documents\GitBiblio\Biblioteca_Entre_Lineas\Persistencia2\bin\Debug\Persistencia.dll
+C:\Users\Admin.PORTABLE\Documents\GitBiblio\Biblioteca_Entre_Lineas\Persistencia2\bin\Debug\Persistencia.pdb
+C:\Users\Admin.PORTABLE\Documents\GitBiblio\Biblioteca_Entre_Lineas\Persistencia2\bin\Debug\Persistencia.xml
+C:\Users\Admin.PORTABLE\Documents\GitBiblio\Biblioteca_Entre_Lineas\Persistencia2\bin\Debug\Entidades.dll
+C:\Users\Admin.PORTABLE\Documents\GitBiblio\Biblioteca_Entre_Lineas\Persistencia2\bin\Debug\Entidades.pdb
+C:\Users\Admin.PORTABLE\Documents\GitBiblio\Biblioteca_Entre_Lineas\Persistencia2\bin\Debug\Entidades.xml
+C:\Users\Admin.PORTABLE\Documents\GitBiblio\Biblioteca_Entre_Lineas\Persistencia2\obj\Debug\Persistencia.Resources.resources
+C:\Users\Admin.PORTABLE\Documents\GitBiblio\Biblioteca_Entre_Lineas\Persistencia2\obj\Debug\Persistencia.dll
+C:\Users\Admin.PORTABLE\Documents\GitBiblio\Biblioteca_Entre_Lineas\Persistencia2\obj\Debug\Persistencia.xml
+C:\Users\Admin.PORTABLE\Documents\GitBiblio\Biblioteca_Entre_Lineas\Persistencia2\obj\Debug\Persistencia.pdb

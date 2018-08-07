@@ -1,0 +1,29 @@
+C:\Users\Admin.PORTABLE\Documents\GitBiblio\Biblioteca_Entre_Lineas\BibliotecaEntreLineas\bin\Debug\BibliotecaEntreLineas.exe.config
+C:\Users\Admin.PORTABLE\Documents\GitBiblio\Biblioteca_Entre_Lineas\BibliotecaEntreLineas\bin\Debug\BibliotecaEntreLineas.exe
+C:\Users\Admin.PORTABLE\Documents\GitBiblio\Biblioteca_Entre_Lineas\BibliotecaEntreLineas\bin\Debug\BibliotecaEntreLineas.pdb
+C:\Users\Admin.PORTABLE\Documents\GitBiblio\Biblioteca_Entre_Lineas\BibliotecaEntreLineas\bin\Debug\BibliotecaEntreLineas.xml
+C:\Users\Admin.PORTABLE\Documents\GitBiblio\Biblioteca_Entre_Lineas\BibliotecaEntreLineas\bin\Debug\MySql.Data.dll
+C:\Users\Admin.PORTABLE\Documents\GitBiblio\Biblioteca_Entre_Lineas\BibliotecaEntreLineas\bin\Debug\Google.Protobuf.dll
+C:\Users\Admin.PORTABLE\Documents\GitBiblio\Biblioteca_Entre_Lineas\BibliotecaEntreLineas\bin\Debug\MySql.Data.xml
+C:\Users\Admin.PORTABLE\Documents\GitBiblio\Biblioteca_Entre_Lineas\BibliotecaEntreLineas\obj\Debug\Biblioteca Entre Lineas(diseño).vbprojAssemblyReference.cache
+C:\Users\Admin.PORTABLE\Documents\GitBiblio\Biblioteca_Entre_Lineas\BibliotecaEntreLineas\obj\Debug\_BibliotecaEntreLineas.frmAltaProducto.resources
+C:\Users\Admin.PORTABLE\Documents\GitBiblio\Biblioteca_Entre_Lineas\BibliotecaEntreLineas\obj\Debug\_BibliotecaEntreLineas.frmAltaSocio.resources
+C:\Users\Admin.PORTABLE\Documents\GitBiblio\Biblioteca_Entre_Lineas\BibliotecaEntreLineas\obj\Debug\_BibliotecaEntreLineas.frmLogin.resources
+C:\Users\Admin.PORTABLE\Documents\GitBiblio\Biblioteca_Entre_Lineas\BibliotecaEntreLineas\obj\Debug\_BibliotecaEntreLineas.frmPrincipal.resources
+C:\Users\Admin.PORTABLE\Documents\GitBiblio\Biblioteca_Entre_Lineas\BibliotecaEntreLineas\obj\Debug\_BibliotecaEntreLineas.Resources.resources
+C:\Users\Admin.PORTABLE\Documents\GitBiblio\Biblioteca_Entre_Lineas\BibliotecaEntreLineas\obj\Debug\Biblioteca Entre Lineas(diseño).vbproj.GenerateResource.cache
+C:\Users\Admin.PORTABLE\Documents\GitBiblio\Biblioteca_Entre_Lineas\BibliotecaEntreLineas\obj\Debug\Biblioteca Entre Lineas(diseño).vbproj.CoreCompileInputs.cache
+C:\Users\Admin.PORTABLE\Documents\GitBiblio\Biblioteca_Entre_Lineas\BibliotecaEntreLineas\obj\Debug\Biblioteca Entre Lineas(diseño).vbproj.CopyComplete
+C:\Users\Admin.PORTABLE\Documents\GitBiblio\Biblioteca_Entre_Lineas\BibliotecaEntreLineas\obj\Debug\BibliotecaEntreLineas.exe
+C:\Users\Admin.PORTABLE\Documents\GitBiblio\Biblioteca_Entre_Lineas\BibliotecaEntreLineas\obj\Debug\BibliotecaEntreLineas.xml
+C:\Users\Admin.PORTABLE\Documents\GitBiblio\Biblioteca_Entre_Lineas\BibliotecaEntreLineas\obj\Debug\BibliotecaEntreLineas.pdb
+C:\Users\Admin.PORTABLE\Documents\GitBiblio\Biblioteca_Entre_Lineas\BibliotecaEntreLineas\bin\Debug\Dominio.dll
+C:\Users\Admin.PORTABLE\Documents\GitBiblio\Biblioteca_Entre_Lineas\BibliotecaEntreLineas\bin\Debug\Entidades.dll
+C:\Users\Admin.PORTABLE\Documents\GitBiblio\Biblioteca_Entre_Lineas\BibliotecaEntreLineas\bin\Debug\Persistencia.dll
+C:\Users\Admin.PORTABLE\Documents\GitBiblio\Biblioteca_Entre_Lineas\BibliotecaEntreLineas\bin\Debug\Dominio.pdb
+C:\Users\Admin.PORTABLE\Documents\GitBiblio\Biblioteca_Entre_Lineas\BibliotecaEntreLineas\bin\Debug\Dominio.xml
+C:\Users\Admin.PORTABLE\Documents\GitBiblio\Biblioteca_Entre_Lineas\BibliotecaEntreLineas\bin\Debug\Entidades.pdb
+C:\Users\Admin.PORTABLE\Documents\GitBiblio\Biblioteca_Entre_Lineas\BibliotecaEntreLineas\bin\Debug\Entidades.xml
+C:\Users\Admin.PORTABLE\Documents\GitBiblio\Biblioteca_Entre_Lineas\BibliotecaEntreLineas\bin\Debug\Persistencia.pdb
+C:\Users\Admin.PORTABLE\Documents\GitBiblio\Biblioteca_Entre_Lineas\BibliotecaEntreLineas\bin\Debug\Persistencia.xml
+C:\Users\Admin.PORTABLE\Documents\GitBiblio\Biblioteca_Entre_Lineas\BibliotecaEntreLineas\obj\Debug\_BibliotecaEntreLineas.frmAltaAutor.resources

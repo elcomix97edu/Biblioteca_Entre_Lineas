@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2005
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Biblioteca Entre Lineas", "BibliotecaEntreLineas\Biblioteca Entre Lineas.vbproj", "{1BCBB0D2-9D64-46F1-AB25-3774FF25D333}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Biblioteca Entre Lineas(diseño)", "BibliotecaEntreLineas\Biblioteca Entre Lineas(diseño).vbproj", "{1BCBB0D2-9D64-46F1-AB25-3774FF25D333}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Persistencia", "Persistencia\Persistencia.vbproj", "{DF04FC57-E2CC-46B2-A883-35A8D6FA317A}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Dominio", "Dominio2\Dominio.vbproj", "{E8C34329-C4BE-4ADC-B2BF-767C57D54107}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Dominio", "Dominio\Dominio.vbproj", "{2993C7CD-5F0E-4267-A354-E05C82F5F255}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Entidades", "Entidades2\Entidades.vbproj", "{1DBCF359-16F8-4A2D-997B-C9AE4E09EF55}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Persistencia", "Persistencia2\Persistencia.vbproj", "{6B322148-6713-4312-A267-F991F12A843A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +21,18 @@ Global
 		{1BCBB0D2-9D64-46F1-AB25-3774FF25D333}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BCBB0D2-9D64-46F1-AB25-3774FF25D333}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1BCBB0D2-9D64-46F1-AB25-3774FF25D333}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DF04FC57-E2CC-46B2-A883-35A8D6FA317A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DF04FC57-E2CC-46B2-A883-35A8D6FA317A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DF04FC57-E2CC-46B2-A883-35A8D6FA317A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DF04FC57-E2CC-46B2-A883-35A8D6FA317A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2993C7CD-5F0E-4267-A354-E05C82F5F255}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2993C7CD-5F0E-4267-A354-E05C82F5F255}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2993C7CD-5F0E-4267-A354-E05C82F5F255}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2993C7CD-5F0E-4267-A354-E05C82F5F255}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8C34329-C4BE-4ADC-B2BF-767C57D54107}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8C34329-C4BE-4ADC-B2BF-767C57D54107}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8C34329-C4BE-4ADC-B2BF-767C57D54107}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8C34329-C4BE-4ADC-B2BF-767C57D54107}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DBCF359-16F8-4A2D-997B-C9AE4E09EF55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DBCF359-16F8-4A2D-997B-C9AE4E09EF55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DBCF359-16F8-4A2D-997B-C9AE4E09EF55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DBCF359-16F8-4A2D-997B-C9AE4E09EF55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B322148-6713-4312-A267-F991F12A843A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B322148-6713-4312-A267-F991F12A843A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B322148-6713-4312-A267-F991F12A843A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B322148-6713-4312-A267-F991F12A843A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
