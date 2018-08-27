@@ -65,6 +65,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="clsPAutor.vb" />
+    <Compile Include="clsPEmpleado.vb" />
     <Compile Include="clsPersistencia.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">

@@ -31,6 +31,7 @@ Partial Class frmPrincipal
         Me.PréstamosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AutorToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AltaToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ListadoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -82,7 +83,7 @@ Partial Class frmPrincipal
         '
         'AutorToolStripMenuItem
         '
-        Me.AutorToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AltaToolStripMenuItem1})
+        Me.AutorToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AltaToolStripMenuItem1, Me.ListadoToolStripMenuItem})
         Me.AutorToolStripMenuItem.Name = "AutorToolStripMenuItem"
         Me.AutorToolStripMenuItem.Size = New System.Drawing.Size(49, 20)
         Me.AutorToolStripMenuItem.Text = "Autor"
@@ -92,6 +93,12 @@ Partial Class frmPrincipal
         Me.AltaToolStripMenuItem1.Name = "AltaToolStripMenuItem1"
         Me.AltaToolStripMenuItem1.Size = New System.Drawing.Size(180, 22)
         Me.AltaToolStripMenuItem1.Text = "Alta"
+        '
+        'ListadoToolStripMenuItem
+        '
+        Me.ListadoToolStripMenuItem.Name = "ListadoToolStripMenuItem"
+        Me.ListadoToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.ListadoToolStripMenuItem.Text = "Listado"
         '
         'frmPrincipal
         '
@@ -119,4 +126,5 @@ Partial Class frmPrincipal
     Friend WithEvents PréstamosToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents AutorToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents AltaToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents ListadoToolStripMenuItem As ToolStripMenuItem
 End Class

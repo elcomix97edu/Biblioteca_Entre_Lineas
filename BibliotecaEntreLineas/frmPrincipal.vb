@@ -11,4 +11,10 @@
         unfrmAltaSocio.MdiParent = Me
         unfrmAltaSocio.Show()
     End Sub
+
+    Private Sub ListadoToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ListadoToolStripMenuItem.Click
+        Dim unfrmListadoSocio As New frmListadoAutor
+        unfrmListadoSocio.MdiParent = Me
+        unfrmListadoSocio.Show()
+    End Sub
 End Class
