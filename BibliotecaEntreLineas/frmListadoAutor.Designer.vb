@@ -27,11 +27,11 @@ Partial Class frmListadoAutor
         Me.lblNombre = New System.Windows.Forms.Label()
         Me.txtNombre = New System.Windows.Forms.TextBox()
         Me.dgvDatos = New System.Windows.Forms.DataGridView()
-        Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Id = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Nombre = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Apellido = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Nacionalidad = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Nacimiento = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Nacionalidad = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.txt2 = New System.Windows.Forms.TextBox()
         CType(Me.dgvDatos, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -74,19 +74,20 @@ Partial Class frmListadoAutor
         '
         'dgvDatos
         '
+        Me.dgvDatos.AllowUserToAddRows = False
         Me.dgvDatos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dgvDatos.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Nombre, Me.Apellido, Me.Nacionalidad, Me.Nacimiento})
+        Me.dgvDatos.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Id, Me.Nombre, Me.Apellido, Me.Nacimiento, Me.Nacionalidad})
         Me.dgvDatos.Location = New System.Drawing.Point(25, 172)
         Me.dgvDatos.Name = "dgvDatos"
         Me.dgvDatos.ReadOnly = True
         Me.dgvDatos.Size = New System.Drawing.Size(745, 242)
         Me.dgvDatos.TabIndex = 4
         '
-        'Column1
+        'Id
         '
-        Me.Column1.HeaderText = "ID"
-        Me.Column1.Name = "Column1"
-        Me.Column1.ReadOnly = True
+        Me.Id.HeaderText = "Id"
+        Me.Id.Name = "Id"
+        Me.Id.ReadOnly = True
         '
         'Nombre
         '
@@ -100,17 +101,17 @@ Partial Class frmListadoAutor
         Me.Apellido.Name = "Apellido"
         Me.Apellido.ReadOnly = True
         '
-        'Nacionalidad
-        '
-        Me.Nacionalidad.HeaderText = "Nacionalidad"
-        Me.Nacionalidad.Name = "Nacionalidad"
-        Me.Nacionalidad.ReadOnly = True
-        '
         'Nacimiento
         '
         Me.Nacimiento.HeaderText = "Nacimiento"
         Me.Nacimiento.Name = "Nacimiento"
         Me.Nacimiento.ReadOnly = True
+        '
+        'Nacionalidad
+        '
+        Me.Nacionalidad.HeaderText = "Nacionalidad"
+        Me.Nacionalidad.Name = "Nacionalidad"
+        Me.Nacionalidad.ReadOnly = True
         '
         'txt2
         '
@@ -143,10 +144,10 @@ Partial Class frmListadoAutor
     Friend WithEvents lblNombre As Label
     Friend WithEvents txtNombre As TextBox
     Friend WithEvents dgvDatos As DataGridView
-    Friend WithEvents Column1 As DataGridViewTextBoxColumn
+    Friend WithEvents txt2 As TextBox
+    Friend WithEvents Id As DataGridViewTextBoxColumn
     Friend WithEvents Nombre As DataGridViewTextBoxColumn
     Friend WithEvents Apellido As DataGridViewTextBoxColumn
-    Friend WithEvents Nacionalidad As DataGridViewTextBoxColumn
     Friend WithEvents Nacimiento As DataGridViewTextBoxColumn
-    Friend WithEvents txt2 As TextBox
+    Friend WithEvents Nacionalidad As DataGridViewTextBoxColumn
 End Class

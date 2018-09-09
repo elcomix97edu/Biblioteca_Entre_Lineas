@@ -59,7 +59,7 @@ Partial Class frmAltaAutor
         Me.btnIngresar.Location = New System.Drawing.Point(215, 310)
         Me.btnIngresar.Name = "btnIngresar"
         Me.btnIngresar.Size = New System.Drawing.Size(75, 23)
-        Me.btnIngresar.TabIndex = 2
+        Me.btnIngresar.TabIndex = 4
         Me.btnIngresar.Text = "Ingresar"
         Me.btnIngresar.UseVisualStyleBackColor = True
         '
@@ -68,7 +68,7 @@ Partial Class frmAltaAutor
         Me.txtNombre.Location = New System.Drawing.Point(279, 111)
         Me.txtNombre.Name = "txtNombre"
         Me.txtNombre.Size = New System.Drawing.Size(100, 20)
-        Me.txtNombre.TabIndex = 3
+        Me.txtNombre.TabIndex = 0
         '
         'Label1
         '
@@ -85,7 +85,7 @@ Partial Class frmAltaAutor
         Me.txtApellido.Location = New System.Drawing.Point(279, 152)
         Me.txtApellido.Name = "txtApellido"
         Me.txtApellido.Size = New System.Drawing.Size(100, 20)
-        Me.txtApellido.TabIndex = 3
+        Me.txtApellido.TabIndex = 1
         '
         'Label2
         '
@@ -102,7 +102,7 @@ Partial Class frmAltaAutor
         Me.txtNacionalidad.Location = New System.Drawing.Point(279, 195)
         Me.txtNacionalidad.Name = "txtNacionalidad"
         Me.txtNacionalidad.Size = New System.Drawing.Size(100, 20)
-        Me.txtNacionalidad.TabIndex = 3
+        Me.txtNacionalidad.TabIndex = 2
         '
         'Label3
         '

@@ -2,21 +2,56 @@
 Imports Entidades
 Public Class frmListadoAutor
 
+
     Private Sub btnBuscar_Click(sender As Object, e As EventArgs) Handles btnBuscar.Click
-        Dim unDAutor As New clsDAutor
-        Dim unEAutor As New ClsEAutor
+        Dim unacon As New clsControladora
+        'Dim unEAutor As New ClsEAutor
         Dim res As String
         'Carga de datos
-        unEAutor.Nombre = txtNombre.Text
+        'unEAutor.Nombre = txtNombre.Text
         'unEAutor.Apellido = txtApellido.Text
         'unEAutor.Nacionalidad = txtNacionalidad.Text
         'unEAutor.Nac = CInt(txtNacimiento.Text)
         'Envio de los datos
-        res = unDAutor.ListadoAutor(unEAutor)
-        txt2.Text = res
+        'res = unDAutor.ListadoAutor(unEAutor)
+        res = txtNombre.Text
+        Dim lista = unacon.ListadoAutor(res)
+
+        Dim Row As DataGridViewRow
+        Dim Cell As DataGridViewCell
+        Dim a As Integer = 0
+
+        For Each unAutor In lista
+            Row = New DataGridViewRow
+
+            Cell = New DataGridViewTextBoxCell
+            Cell.Value = unAutor.Id.ToString
+            Row.Cells.Add(Cell)
+
+            Cell = New DataGridViewTextBoxCell
+            Cell.Value = unAutor.Nombre.ToString
+            Row.Cells.Add(Cell)
+
+            Cell = New DataGridViewTextBoxCell
+            Cell.Value = unAutor.Apellido.ToString
+            Row.Cells.Add(Cell)
+
+            Cell = New DataGridViewTextBoxCell
+            Cell.Value = unAutor.Nac.ToString
+            Row.Cells.Add(Cell)
+
+            Cell = New DataGridViewTextBoxCell
+            Cell.Value = unAutor.Nacionalidad.ToString
+            Row.Cells.Add(Cell)
+
+
+            Me.dgvDatos.Rows.Add(Row)
+        Next
+
+        'dgvDatos.DataSource = unacon.ListadoAutor(res)
+
 
     End Sub
-
 
 
 End Class

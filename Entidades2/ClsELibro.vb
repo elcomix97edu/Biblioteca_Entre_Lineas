@@ -1,6 +1,4 @@
-﻿Imports _BibliotecaEntreLineas
-
-Public Class ClsELibro
+﻿Public Class ClsELibro
 
     Private mTitulo As String
     Private mTipo As String

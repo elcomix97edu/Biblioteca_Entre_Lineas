@@ -1,13 +1,21 @@
 ﻿Public Class ClsEAutor
 
+    Private mId As Integer
     Private mNombre As String
     Private mApellido As String
     Private mNacionalidad As String
     Private mNac As Integer
-    Private mId As Integer
 
 
 
+    Public Property Id As Integer
+        Get
+            Return mId
+        End Get
+        Set(value As Integer)
+            [mId] = value
+        End Set
+    End Property
 
     Public Property Nombre As String
         Get
@@ -46,12 +54,5 @@
         End Set
     End Property
 
-    Public Property Id As Integer
-        Get
-            Return mId
-        End Get
-        Set(value As Integer)
-            [mId] = value
-        End Set
-    End Property
+
 End Class

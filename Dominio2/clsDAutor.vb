@@ -7,9 +7,14 @@ Public Class clsDAutor
         Return unPAutor.AltaAutor(unautor)
     End Function
 
-    Public Function ListadoAutor(unautor As ClsEAutor) As String
+    Public Function ListadoAutor(nombre As String) As List(Of ClsEAutor)
         Dim unPAutor As New clsPAutor
-        Return unPAutor.ListadoAutor(unautor)
+        Return unPAutor.listarAutor2(nombre)
+    End Function
+
+    Public Function BajaAutor(id As Integer) As Boolean
+        Dim unPAutor As New clsPAutor
+        Return unPAutor.eliminarAutor(id)
     End Function
 
 End Class

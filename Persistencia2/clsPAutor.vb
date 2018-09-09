@@ -6,7 +6,7 @@ Public Class clsPAutor
 
     Public Function AltaAutor(unautor As ClsEAutor) As Boolean
         Dim consulta As String
-        consulta = "INSERT INTO autores (nombre,apellido,nacionalidad,nacimiento) VALUES ('" & unautor.Nombre & "','" & unautor.Apellido & "','" & unautor.Nacionalidad & "', " & unautor.Nac & ")"
+        consulta = "INSERT INTO autores (nombreAutor,apellidoAutor,nacionalidadAutor,fechaNacimiento) VALUES ('" & unautor.Nombre & "','" & unautor.Apellido & "','" & unautor.Nacionalidad & "', " & unautor.Nac & ")"
 
         Return ejecutarSQL(consulta)
     End Function
@@ -30,30 +30,54 @@ Public Class clsPAutor
     Public Function crearAutor(ByVal datos As MySqlDataReader) As ClsEAutor
         Dim unAutor As New ClsEAutor
 
-        unAutor.Nombre = datos.Item("nombre").ToString
-        unAutor.Apellido = datos.Item("apellido").ToString
-        unAutor.Nac = datos.Item("nacimiento").ToString
-        unAutor.Nacionalidad = datos.Item("nacionalidad").ToString
+        unAutor.Id = CInt(datos.Item("idAutor").ToString)
+        unAutor.Nombre = datos.Item("nombreAutor").ToString
+        unAutor.Apellido = datos.Item("apellidoAutor").ToString
+        unAutor.Nac = datos.Item("fechaNacimiento").ToString
+        unAutor.Nacionalidad = datos.Item("nacionalidadAutor").ToString
+
 
 
         Return unAutor
     End Function
 
-    Public Function listarAutores() As List(Of ClsEAutor)
-        Dim consulta As String
-        consulta = "SELECT * from autores"
+    'Public Function listarAutor(nombre As String) As ClsEAutor
+    '    Dim consulta As String
+    '    consulta = "SELECT * FROM autores WHERE nombre='" & nombre
+    '    Dim unAutor As New ClsEAutor
+    '    Dim datos As MySqlDataReader
+    '    datos = ejecutarYdevolver(consulta)
 
-        Dim colAutores As New List(Of ClsEAutor)
+    '    While datos.Read
+
+    '        unAutor = crearAutor(datos)
+    '    End While
+
+    '    Return unAutor
+    'End Function
+
+    Public Function listarAutor2(nombre As String) As List(Of ClsEAutor)
+        Dim consulta As String
+        consulta = "SELECT * FROM autores WHERE nombreAutor='" & nombre & "';"
+
         Dim datos As MySqlDataReader
         datos = ejecutarYdevolver(consulta)
 
+        Dim listaautores As New List(Of ClsEAutor)
+
         While datos.Read
-            Dim unAutor As New ClsEAutor
-            unAutor = crearAutor(datos)
-            colAutores.Add(unAutor)
+            Dim unHorario As New ClsEAutor
+            unHorario = crearAutor(datos)
+            listaautores.Add(unHorario)
         End While
 
-        Return colAutores
+        Return listaautores
+    End Function
+
+    Public Function eliminarAutor(id As Integer) As Boolean
+        Dim consulta As String
+        consulta = "DELETE FROM autores WHERE idAutor =" & id & ";"
+        Return ejecutarSQL(consulta)
     End Function
 
 End Class

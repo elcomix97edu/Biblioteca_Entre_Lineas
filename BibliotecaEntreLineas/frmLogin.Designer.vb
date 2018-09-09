@@ -63,21 +63,22 @@ Partial Class frmLogin
         Me.TextBox2.Location = New System.Drawing.Point(359, 250)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox2.TabIndex = 8
+        Me.TextBox2.TabIndex = 1
+        Me.TextBox2.UseSystemPasswordChar = True
         '
         'TextBox1
         '
         Me.TextBox1.Location = New System.Drawing.Point(359, 172)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox1.TabIndex = 7
+        Me.TextBox1.TabIndex = 0
         '
         'Button1
         '
         Me.Button1.Location = New System.Drawing.Point(371, 364)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 6
+        Me.Button1.TabIndex = 2
         Me.Button1.Text = "Conectar"
         Me.Button1.UseVisualStyleBackColor = True
         '

@@ -32,6 +32,8 @@ Partial Class frmPrincipal
         Me.AutorToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AltaToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.ListadoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.BajaToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.lblBienvenida = New System.Windows.Forms.Label()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -83,7 +85,7 @@ Partial Class frmPrincipal
         '
         'AutorToolStripMenuItem
         '
-        Me.AutorToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AltaToolStripMenuItem1, Me.ListadoToolStripMenuItem})
+        Me.AutorToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AltaToolStripMenuItem1, Me.ListadoToolStripMenuItem, Me.BajaToolStripMenuItem1})
         Me.AutorToolStripMenuItem.Name = "AutorToolStripMenuItem"
         Me.AutorToolStripMenuItem.Size = New System.Drawing.Size(49, 20)
         Me.AutorToolStripMenuItem.Text = "Autor"
@@ -91,14 +93,31 @@ Partial Class frmPrincipal
         'AltaToolStripMenuItem1
         '
         Me.AltaToolStripMenuItem1.Name = "AltaToolStripMenuItem1"
-        Me.AltaToolStripMenuItem1.Size = New System.Drawing.Size(180, 22)
+        Me.AltaToolStripMenuItem1.Size = New System.Drawing.Size(112, 22)
         Me.AltaToolStripMenuItem1.Text = "Alta"
         '
         'ListadoToolStripMenuItem
         '
         Me.ListadoToolStripMenuItem.Name = "ListadoToolStripMenuItem"
-        Me.ListadoToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.ListadoToolStripMenuItem.Size = New System.Drawing.Size(112, 22)
         Me.ListadoToolStripMenuItem.Text = "Listado"
+        '
+        'BajaToolStripMenuItem1
+        '
+        Me.BajaToolStripMenuItem1.Name = "BajaToolStripMenuItem1"
+        Me.BajaToolStripMenuItem1.Size = New System.Drawing.Size(112, 22)
+        Me.BajaToolStripMenuItem1.Text = "Baja"
+        '
+        'lblBienvenida
+        '
+        Me.lblBienvenida.AutoSize = True
+        Me.lblBienvenida.BackColor = System.Drawing.Color.Transparent
+        Me.lblBienvenida.Font = New System.Drawing.Font("Microsoft Sans Serif", 26.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblBienvenida.Location = New System.Drawing.Point(199, 216)
+        Me.lblBienvenida.Name = "lblBienvenida"
+        Me.lblBienvenida.Size = New System.Drawing.Size(188, 39)
+        Me.lblBienvenida.TabIndex = 3
+        Me.lblBienvenida.Text = "Bienvenido"
         '
         'frmPrincipal
         '
@@ -106,6 +125,7 @@ Partial Class frmPrincipal
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.MenuStrip1)
+        Me.Controls.Add(Me.lblBienvenida)
         Me.IsMdiContainer = True
         Me.MainMenuStrip = Me.MenuStrip1
         Me.Name = "frmPrincipal"
@@ -127,4 +147,6 @@ Partial Class frmPrincipal
     Friend WithEvents AutorToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents AltaToolStripMenuItem1 As ToolStripMenuItem
     Friend WithEvents ListadoToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents lblBienvenida As Label
+    Friend WithEvents BajaToolStripMenuItem1 As ToolStripMenuItem
 End Class

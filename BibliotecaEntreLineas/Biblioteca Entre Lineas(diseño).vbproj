@@ -103,6 +103,18 @@
     <Compile Include="frmAltaSocio.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmBajaAutor.Designer.vb">
+      <DependentUpon>frmBajaAutor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmBajaAutor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEE.Designer.vb">
+      <DependentUpon>frmEE.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEE.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmListadoAutor.Designer.vb">
       <DependentUpon>frmListadoAutor.vb</DependentUpon>
     </Compile>
@@ -142,6 +154,7 @@
     <Compile Include="frmAltaProducto.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="VerificarCampo.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="frmAltaAutor.resx">
@@ -152,6 +165,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmAltaSocio.resx">
       <DependentUpon>frmAltaSocio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBajaAutor.resx">
+      <DependentUpon>frmBajaAutor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEE.resx">
+      <DependentUpon>frmEE.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmListadoAutor.resx">
       <DependentUpon>frmListadoAutor.vb</DependentUpon>
@@ -201,6 +220,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Sin título-3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\274976300bafcabe798a4da051f8fb62b6c99fbbv2_00.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

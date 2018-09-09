@@ -63,9 +63,9 @@ Namespace My.Resources
         '''<summary>
         '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         '''</summary>
-        Friend ReadOnly Property Sin_título_3() As System.Drawing.Bitmap
+        Friend ReadOnly Property _274976300bafcabe798a4da051f8fb62b6c99fbbv2_00() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("Sin título-3", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("274976300bafcabe798a4da051f8fb62b6c99fbbv2_00", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property

@@ -5,7 +5,7 @@ Public Class frmAltaAutor
 
 
     Private Sub btnIngresar_Click(sender As Object, e As EventArgs) Handles btnIngresar.Click
-        Dim unDAutor As New clsDAutor
+        Dim uncont As New clsControladora
         Dim unEAutor As New ClsEAutor
         'Carga de datos
         unEAutor.Nombre = txtNombre.Text
@@ -13,7 +13,11 @@ Public Class frmAltaAutor
         unEAutor.Nacionalidad = txtNacionalidad.Text
         unEAutor.Nac = CInt(txtNacimiento.Text)
         'Envio de los datos
-        unDAutor.AltaAutor(unEAutor)
+        If uncont.AltaAutor(unEAutor) Then
+            MsgBox("Autor Agregador Correctamente")
+        Else
+            MsgBox("Ocurrio un error al agregar el autor")
+        End If
 
 
 
