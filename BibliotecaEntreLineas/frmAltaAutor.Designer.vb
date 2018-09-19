@@ -32,6 +32,7 @@ Partial Class frmAltaAutor
         Me.txtNacionalidad = New System.Windows.Forms.TextBox()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.txtNacimiento = New System.Windows.Forms.TextBox()
+        Me.btnModificar = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'lblAltaAutor
@@ -121,11 +122,22 @@ Partial Class frmAltaAutor
         Me.txtNacimiento.Size = New System.Drawing.Size(100, 20)
         Me.txtNacimiento.TabIndex = 3
         '
+        'btnModificar
+        '
+        Me.btnModificar.Location = New System.Drawing.Point(304, 310)
+        Me.btnModificar.Name = "btnModificar"
+        Me.btnModificar.Size = New System.Drawing.Size(75, 23)
+        Me.btnModificar.TabIndex = 5
+        Me.btnModificar.Text = "Modificar"
+        Me.btnModificar.UseVisualStyleBackColor = True
+        Me.btnModificar.Visible = False
+        '
         'frmAltaAutor
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(529, 385)
+        Me.Controls.Add(Me.btnModificar)
         Me.Controls.Add(Me.txtNacimiento)
         Me.Controls.Add(Me.txtNacionalidad)
         Me.Controls.Add(Me.Label3)
@@ -153,4 +165,5 @@ Partial Class frmAltaAutor
     Friend WithEvents txtNacionalidad As TextBox
     Friend WithEvents Label3 As Label
     Friend WithEvents txtNacimiento As TextBox
+    Friend WithEvents btnModificar As Button
 End Class

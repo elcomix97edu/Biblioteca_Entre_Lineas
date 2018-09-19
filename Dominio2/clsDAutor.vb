@@ -17,4 +17,9 @@ Public Class clsDAutor
         Return unPAutor.eliminarAutor(id)
     End Function
 
+    Public Function ModificarAutor(unautor As ClsEAutor) As Boolean
+        Dim unPAutor As New clsPAutor
+        Return unPAutor.modificarAutor(unautor)
+    End Function
+
 End Class

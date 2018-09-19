@@ -127,6 +127,12 @@
     <Compile Include="frmLogin.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmModificarAutor.Designer.vb">
+      <DependentUpon>frmModificarAutor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmModificarAutor.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmPrincipal.Designer.vb">
       <DependentUpon>frmPrincipal.vb</DependentUpon>
     </Compile>
@@ -178,6 +184,9 @@
     <EmbeddedResource Include="frmLogin.resx">
       <DependentUpon>frmLogin.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmModificarAutor.resx">
+      <DependentUpon>frmModificarAutor.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmPrincipal.resx">
       <DependentUpon>frmPrincipal.vb</DependentUpon>
     </EmbeddedResource>
@@ -223,6 +232,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\274976300bafcabe798a4da051f8fb62b6c99fbbv2_00.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

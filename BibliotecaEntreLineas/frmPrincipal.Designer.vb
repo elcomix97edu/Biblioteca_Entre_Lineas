@@ -34,6 +34,7 @@ Partial Class frmPrincipal
         Me.ListadoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.BajaToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.lblBienvenida = New System.Windows.Forms.Label()
+        Me.ModificarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -85,7 +86,7 @@ Partial Class frmPrincipal
         '
         'AutorToolStripMenuItem
         '
-        Me.AutorToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AltaToolStripMenuItem1, Me.ListadoToolStripMenuItem, Me.BajaToolStripMenuItem1})
+        Me.AutorToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AltaToolStripMenuItem1, Me.ListadoToolStripMenuItem, Me.BajaToolStripMenuItem1, Me.ModificarToolStripMenuItem})
         Me.AutorToolStripMenuItem.Name = "AutorToolStripMenuItem"
         Me.AutorToolStripMenuItem.Size = New System.Drawing.Size(49, 20)
         Me.AutorToolStripMenuItem.Text = "Autor"
@@ -93,19 +94,19 @@ Partial Class frmPrincipal
         'AltaToolStripMenuItem1
         '
         Me.AltaToolStripMenuItem1.Name = "AltaToolStripMenuItem1"
-        Me.AltaToolStripMenuItem1.Size = New System.Drawing.Size(112, 22)
+        Me.AltaToolStripMenuItem1.Size = New System.Drawing.Size(180, 22)
         Me.AltaToolStripMenuItem1.Text = "Alta"
         '
         'ListadoToolStripMenuItem
         '
         Me.ListadoToolStripMenuItem.Name = "ListadoToolStripMenuItem"
-        Me.ListadoToolStripMenuItem.Size = New System.Drawing.Size(112, 22)
+        Me.ListadoToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.ListadoToolStripMenuItem.Text = "Listado"
         '
         'BajaToolStripMenuItem1
         '
         Me.BajaToolStripMenuItem1.Name = "BajaToolStripMenuItem1"
-        Me.BajaToolStripMenuItem1.Size = New System.Drawing.Size(112, 22)
+        Me.BajaToolStripMenuItem1.Size = New System.Drawing.Size(180, 22)
         Me.BajaToolStripMenuItem1.Text = "Baja"
         '
         'lblBienvenida
@@ -118,6 +119,12 @@ Partial Class frmPrincipal
         Me.lblBienvenida.Size = New System.Drawing.Size(188, 39)
         Me.lblBienvenida.TabIndex = 3
         Me.lblBienvenida.Text = "Bienvenido"
+        '
+        'ModificarToolStripMenuItem
+        '
+        Me.ModificarToolStripMenuItem.Name = "ModificarToolStripMenuItem"
+        Me.ModificarToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.ModificarToolStripMenuItem.Text = "Modificar"
         '
         'frmPrincipal
         '
@@ -149,4 +156,5 @@ Partial Class frmPrincipal
     Friend WithEvents ListadoToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents lblBienvenida As Label
     Friend WithEvents BajaToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents ModificarToolStripMenuItem As ToolStripMenuItem
 End Class

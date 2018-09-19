@@ -16,6 +16,7 @@ Public Class frmListadoAutor
         'res = unDAutor.ListadoAutor(unEAutor)
         res = txtNombre.Text
         Dim lista = unacon.ListadoAutor(res)
+        dgvDatos.Rows.Clear()
 
         Dim Row As DataGridViewRow
         Dim Cell As DataGridViewCell
@@ -46,7 +47,13 @@ Public Class frmListadoAutor
 
 
             Me.dgvDatos.Rows.Add(Row)
+            a = a + 1
+
         Next
+        If a = 0 Then
+            MsgBox("No se encontró ningun resultado", MsgBoxStyle.Exclamation)
+
+        End If
 
         'dgvDatos.DataSource = unacon.ListadoAutor(res)
 

@@ -80,4 +80,11 @@ Public Class clsPAutor
         Return ejecutarSQL(consulta)
     End Function
 
+    Public Function modificarAutor(unautor As ClsEAutor) As Boolean
+        Dim consulta As String
+        consulta = "UPDATE autores SET nombreAutor = '" & unautor.Nombre & "' , apellidoAutor = '" & unautor.Apellido & "' , nacionalidadAutor = '" & unautor.Nacionalidad & "', fechaNacimiento = " & unautor.Nac & " WHERE idAutor =" & unautor.Id & "; "
+        Return ejecutarSQL(consulta)
+
+    End Function
+
 End Class

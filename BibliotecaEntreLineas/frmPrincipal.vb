@@ -64,4 +64,11 @@ Public Class frmPrincipal
         End If
 
     End Sub
+
+    Private Sub ModificarToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ModificarToolStripMenuItem.Click
+        Dim unfrmModAutor As New frmModificarAutor
+        unfrmModAutor.MdiParent = Me
+        unfrmModAutor.Show()
+
+    End Sub
 End Class

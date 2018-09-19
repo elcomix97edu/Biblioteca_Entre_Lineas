@@ -23,4 +23,9 @@ Public Class clsControladora
         Dim unDAutor As New clsDAutor
         Return unDAutor.BajaAutor(id)
     End Function
+
+    Public Function ModificarAutor(unautor As ClsEAutor) As Boolean
+        Dim unDAutor As New clsDAutor
+        Return unDAutor.ModificarAutor(unautor)
+    End Function
 End Class

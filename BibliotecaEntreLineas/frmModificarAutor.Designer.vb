@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class frmBajaAutor
+Partial Class frmModificarAutor
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
@@ -23,16 +23,15 @@ Partial Class frmBajaAutor
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.dgvDatos = New System.Windows.Forms.DataGridView()
-        Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Id = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Nombre = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Apellido = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Nacionalidad = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Nacimiento = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Nacionalidad = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.txtNombre = New System.Windows.Forms.TextBox()
         Me.lblNombre = New System.Windows.Forms.Label()
         Me.btnBuscar = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         CType(Me.dgvDatos, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -40,18 +39,18 @@ Partial Class frmBajaAutor
         '
         Me.dgvDatos.AllowUserToAddRows = False
         Me.dgvDatos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dgvDatos.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Nombre, Me.Apellido, Me.Nacionalidad, Me.Nacimiento})
-        Me.dgvDatos.Location = New System.Drawing.Point(28, 178)
+        Me.dgvDatos.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Id, Me.Nombre, Me.Apellido, Me.Nacimiento, Me.Nacionalidad})
+        Me.dgvDatos.Location = New System.Drawing.Point(19, 178)
         Me.dgvDatos.Name = "dgvDatos"
         Me.dgvDatos.ReadOnly = True
         Me.dgvDatos.Size = New System.Drawing.Size(745, 242)
-        Me.dgvDatos.TabIndex = 9
+        Me.dgvDatos.TabIndex = 10
         '
-        'Column1
+        'Id
         '
-        Me.Column1.HeaderText = "ID"
-        Me.Column1.Name = "Column1"
-        Me.Column1.ReadOnly = True
+        Me.Id.HeaderText = "Id"
+        Me.Id.Name = "Id"
+        Me.Id.ReadOnly = True
         '
         'Nombre
         '
@@ -65,41 +64,41 @@ Partial Class frmBajaAutor
         Me.Apellido.Name = "Apellido"
         Me.Apellido.ReadOnly = True
         '
-        'Nacionalidad
-        '
-        Me.Nacionalidad.HeaderText = "Nacionalidad"
-        Me.Nacionalidad.Name = "Nacionalidad"
-        Me.Nacionalidad.ReadOnly = True
-        '
         'Nacimiento
         '
         Me.Nacimiento.HeaderText = "Nacimiento"
         Me.Nacimiento.Name = "Nacimiento"
         Me.Nacimiento.ReadOnly = True
         '
+        'Nacionalidad
+        '
+        Me.Nacionalidad.HeaderText = "Nacionalidad"
+        Me.Nacionalidad.Name = "Nacionalidad"
+        Me.Nacionalidad.ReadOnly = True
+        '
         'txtNombre
         '
-        Me.txtNombre.Location = New System.Drawing.Point(144, 117)
+        Me.txtNombre.Location = New System.Drawing.Point(135, 117)
         Me.txtNombre.Name = "txtNombre"
         Me.txtNombre.Size = New System.Drawing.Size(100, 20)
-        Me.txtNombre.TabIndex = 8
+        Me.txtNombre.TabIndex = 9
         '
         'lblNombre
         '
         Me.lblNombre.AutoSize = True
         Me.lblNombre.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblNombre.Location = New System.Drawing.Point(37, 117)
+        Me.lblNombre.Location = New System.Drawing.Point(28, 117)
         Me.lblNombre.Name = "lblNombre"
         Me.lblNombre.Size = New System.Drawing.Size(87, 25)
-        Me.lblNombre.TabIndex = 7
+        Me.lblNombre.TabIndex = 8
         Me.lblNombre.Text = "Nombre"
         '
         'btnBuscar
         '
-        Me.btnBuscar.Location = New System.Drawing.Point(276, 114)
+        Me.btnBuscar.Location = New System.Drawing.Point(267, 114)
         Me.btnBuscar.Name = "btnBuscar"
         Me.btnBuscar.Size = New System.Drawing.Size(75, 23)
-        Me.btnBuscar.TabIndex = 6
+        Me.btnBuscar.TabIndex = 7
         Me.btnBuscar.Text = "Buscar"
         Me.btnBuscar.UseVisualStyleBackColor = True
         '
@@ -107,35 +106,24 @@ Partial Class frmBajaAutor
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 26.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(279, 24)
+        Me.Label1.Location = New System.Drawing.Point(195, 31)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(262, 39)
-        Me.Label1.TabIndex = 5
-        Me.Label1.Text = "Baja de Autores"
+        Me.Label1.Size = New System.Drawing.Size(387, 39)
+        Me.Label1.TabIndex = 6
+        Me.Label1.Text = "Modificación de Autores"
         '
-        'ComboBox1
-        '
-        Me.ComboBox1.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest
-        Me.ComboBox1.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(473, 114)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(121, 21)
-        Me.ComboBox1.TabIndex = 10
-        '
-        'frmBajaAutor
+        'frmModificarAutor
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Controls.Add(Me.ComboBox1)
         Me.Controls.Add(Me.dgvDatos)
         Me.Controls.Add(Me.txtNombre)
         Me.Controls.Add(Me.lblNombre)
         Me.Controls.Add(Me.btnBuscar)
         Me.Controls.Add(Me.Label1)
-        Me.Name = "frmBajaAutor"
-        Me.Text = "frmBajaAutor"
+        Me.Name = "frmModificarAutor"
+        Me.Text = "frmModificarAutor"
         CType(Me.dgvDatos, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
@@ -143,14 +131,13 @@ Partial Class frmBajaAutor
     End Sub
 
     Friend WithEvents dgvDatos As DataGridView
-    Friend WithEvents Column1 As DataGridViewTextBoxColumn
+    Friend WithEvents Id As DataGridViewTextBoxColumn
     Friend WithEvents Nombre As DataGridViewTextBoxColumn
     Friend WithEvents Apellido As DataGridViewTextBoxColumn
-    Friend WithEvents Nacionalidad As DataGridViewTextBoxColumn
     Friend WithEvents Nacimiento As DataGridViewTextBoxColumn
+    Friend WithEvents Nacionalidad As DataGridViewTextBoxColumn
     Friend WithEvents txtNombre As TextBox
     Friend WithEvents lblNombre As Label
     Friend WithEvents btnBuscar As Button
     Friend WithEvents Label1 As Label
-    Friend WithEvents ComboBox1 As ComboBox
 End Class

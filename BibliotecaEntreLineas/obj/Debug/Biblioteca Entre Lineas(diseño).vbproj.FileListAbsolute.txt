@@ -30,3 +30,4 @@ C:\Users\Admin.PORTABLE\Documents\GitBiblio\Biblioteca_Entre_Lineas\BibliotecaEn
 C:\Users\Admin.PORTABLE\Documents\GitBiblio\Biblioteca_Entre_Lineas\BibliotecaEntreLineas\obj\Debug\_BibliotecaEntreLineas.frmListadoAutor.resources
 C:\Users\Admin.PORTABLE\Documents\GitBiblio\Biblioteca_Entre_Lineas\BibliotecaEntreLineas\obj\Debug\_BibliotecaEntreLineas.frmEE.resources
 C:\Users\Admin.PORTABLE\Documents\GitBiblio\Biblioteca_Entre_Lineas\BibliotecaEntreLineas\obj\Debug\_BibliotecaEntreLineas.frmBajaAutor.resources
+C:\Users\Admin.PORTABLE\Documents\GitBiblio\Biblioteca_Entre_Lineas\BibliotecaEntreLineas\obj\Debug\_BibliotecaEntreLineas.frmModificarAutor.resources
